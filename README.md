@@ -23,3 +23,5 @@
 ## その他
 
 - Burp Suite の Intruder でも同じことができるはずです。ただし、Pro 版（有料版）でないと、速度制限や結果保存不可の制約を受けます。
+
+![ZAP02](https://github.com/user-attachments/assets/7d77a85a-39be-4888-acd3-74914c1d65c7)
