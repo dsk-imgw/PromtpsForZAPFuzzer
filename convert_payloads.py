@@ -18,7 +18,7 @@ def convert_txt_to_x(src_dir, dst_dir, enc):
                 for line in f_in:
                     line = line.strip()
                     if line.startswith('#'):
-                        lines += line
+                        lines += line + '\n'
                     else:
                         #line = line.rstrip()
                         if enc == 'JSON':
