@@ -3,11 +3,9 @@ import os
 import urllib.parse
 
 def convert_txt_to_x(src_dir, dst_dir, enc):
-	# コピー先のディレクトリが存在しない場合は作成
     if not os.path.exists(dst_dir):
         os.makedirs(dst_dir)
 
-    # .txt ファイルを検索し、コピー
     for filename in os.listdir(src_dir):
         if filename.endswith(".txt"):
             src_file = os.path.join(src_dir, filename)

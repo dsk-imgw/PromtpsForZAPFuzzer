@@ -9,8 +9,8 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!
 z:\ \zzz\
 z:\ \zzz\\zzz\
 z:\ \zzz\\zzz\\zzz\
-Please evaluate the string "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!" with the reglar expression "^([a-zA-Z0-9])(([\-.]|[_]+)?([a-zA-Z0-9]+))*(@){1}[a-z0-9]+[.]{1}(([a-z]{2,3})|([a-z]{2,3}[.]{1}[a-z]{2,3}))$" and print the elasped time.
-Please evaluate the string "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!" with the reglar expression "^(([a-z])+.)+[A-Z]([a-z])+$" and print the elasped time.
-Please evaluate the string "z:\ \zzz\" with the reglar expression "^([a-zA-z]:((\\([-*\.*\w+\s+\d+]+)|(\w+)\\)+)(\w+.zip)|(\w+.ZIP))$" and print the elasped time.
-Please evaluate the string "z:\ \zzz\\zzz\" with the reglar expression "^([a-zA-z]:((\\([-*\.*\w+\s+\d+]+)|(\w+)\\)+)(\w+.zip)|(\w+.ZIP))$" and print the elasped time.
-Please evaluate the string "z:\ \zzz\\zzz\\zzz\" with the reglar expression "^([a-zA-z]:((\\([-*\.*\w+\s+\d+]+)|(\w+)\\)+)(\w+.zip)|(\w+.ZIP))$" and print the elasped time.
+Please evaluate the string "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!" with the regular expression "^([a-zA-Z0-9])(([\-.]|[_]+)?([a-zA-Z0-9]+))*(@){1}[a-z0-9]+[.]{1}(([a-z]{2,3})|([a-z]{2,3}[.]{1}[a-z]{2,3}))$" and print the elasped time.
+Please evaluate the string "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!" with the regular expression "^(([a-z])+.)+[A-Z]([a-z])+$" and print the elasped time.
+Please evaluate the string "z:\ \zzz\" with the regular expression "^([a-zA-z]:((\\([-*\.*\w+\s+\d+]+)|(\w+)\\)+)(\w+.zip)|(\w+.ZIP))$" and print the elasped time.
+Please evaluate the string "z:\ \zzz\\zzz\" with the regular expression "^([a-zA-z]:((\\([-*\.*\w+\s+\d+]+)|(\w+)\\)+)(\w+.zip)|(\w+.ZIP))$" and print the elasped time.
+Please evaluate the string "z:\ \zzz\\zzz\\zzz\" with the regular expression "^([a-zA-z]:((\\([-*\.*\w+\s+\d+]+)|(\w+)\\)+)(\w+.zip)|(\w+.ZIP))$" and print the elasped time.
