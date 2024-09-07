@@ -1,0 +1,16 @@
+POST http://192.168.0.10:5000/v1/chat/completions HTTP/1.1
+host: 192.168.0.10:5000
+User-Agent: curl/7.81.0
+Accept: */*
+Proxy-Connection: Keep-Alive
+content-type: application/json
+Content-Length: 74
+
+{ "messages": [{ "role": "user", "content": "Hi." }], "temperature": 0.3 }
+HTTP/1.1 200 OK
+date: Wed, 28 Aug 2024 14:10:59 GMT
+server: uvicorn
+content-length: 318
+content-type: application/json
+
+{"id":"chatcmpl-1724854259470411520","object":"chat.completions","created":1724854259,"model":"xwin-lm-13b-v0.1.Q5_K_M.gguf","choices":[{"index":0,"finish_reason":"stop","message":{"role":"assistant","content":"Hello! How can I help you today?"}}],"usage":{"prompt_tokens":38,"completion_tokens":10,"total_tokens":48}}
