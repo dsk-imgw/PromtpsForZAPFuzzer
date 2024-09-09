@@ -26,15 +26,19 @@ def convert_txt_to_x(src_dir, dst_dir, enc):
                 f_out.write(lines.rstrip())
 
 def main():
+
     src_dir = 'payloads'
-    dst_dir = 'payloads_JsonEncoded'
-    enc = 'JSON'
-    convert_txt_to_x(src_dir, dst_dir, enc)
+    langs = [ 'en', 'ja' ]
 
-    dst_dir = 'payloads_UrlEncoded'
-    enc = 'URL'
-    convert_txt_to_x(src_dir, dst_dir, enc)
+    for lang in langs:
+        src_dir = 'payloads/' + lang + '/raw'
+        dst_dir = 'payloads/' + lang + '/json_encoded'
+        enc = 'JSON'
+        convert_txt_to_x(src_dir, dst_dir, enc)
 
+        dst_dir = 'payloads/' + lang + '/url_encoded'
+        enc = 'URL'
+        convert_txt_to_x(src_dir, dst_dir, enc)
 
 if __name__ == '__main__':
     main()
