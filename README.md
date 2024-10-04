@@ -46,4 +46,3 @@ python process_results.py [-p 付与するファイル接頭辞] 保存したメ
 - Burp Suite の Intruder でも同じことができるはず。ただし、Pro 版（有料版）でないと、速度制限や結果保存不可の制約を受ける。
 - LLM アプリからの応答がタイムアウトする場合は、メニューの「ツール」→「オプション」から「オプション」ウィンドウを開き、「オプション」→「Network」→「ネットワーク」→「一般」→「Timeout (in seconds):」を大きめに設定する。
 
-![ZAP02](https://github.com/user-attachments/assets/7d77a85a-39be-4888-acd3-74914c1d65c7)
