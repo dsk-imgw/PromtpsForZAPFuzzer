@@ -1,5 +1,7 @@
 # LLM Prompts for ZAP (Zed Attack Proxy) Fuzzer
 
+ZAProxy の Fuzzer 機能を使って LLM のセキュリティを検査するためのデータと、データを作成したり結果を整理したりするためのツールです。
+
 ## §1. スキャンの実行
 
 1. ZAP を起動する。
